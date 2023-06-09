@@ -1,0 +1,150 @@
+:root{
+    --blue: #3A38FF;
+    --black: #101041;
+    --grey: #DFE2E7;
+    --purplesoft: #E5E4FF;
+    --bluesoft: #F9FBFC;
+    --darkgrey: #949293;
+    --darkgrey2: #E7EBED;
+    --purple: #6261D8;
+    --green: #316762;
+    --white: #FFF;
+    --fwbold:700;
+    --fwextrabold:800;
+    --fwsemibold:600;
+    --fwmedium:500;
+    --fwreguler:400;
+    --fwlight:300;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: var(--bluesoft);
+}
+
+.big-header{
+    font-weight: var(--fwextrabold);
+    color: var(--black);
+    font-size: 48px;
+    margin: 0;
+}
+
+.medium-header{
+    font-weight: var(--fwbold);
+    color: var(--black);
+    font-size: 28px;
+    margin: 0;
+}
+
+.small-header{
+    font-weight: var(--fwbold);
+    color: var(--black);
+    font-size: 22px;
+    margin: 0;
+}
+
+.primary-copy{
+    font-weight: var(--fwreguler);
+    font-size: 12px;
+    color: var(--darkgrey);
+    line-height: 28px;
+    margin: 0;
+}
+
+.btn-primary{
+    padding: 12px 20px 12px 20px;
+    background: var(--blue);
+    color: var(--white);
+    font-size: 16px;
+    font-weight: var(--fwsemibold);
+    border-radius: 50px;
+    border: 0;
+}
+
+.btn-primary:hover{
+    background: var(--black);
+    color: var(--white);
+}
+
+.btn-secondary{
+    padding: 12px 20px 12px 20px;
+    background: var(--grey);
+    color: var(--black);
+    font-size: 16px;
+    font-weight: var(--fwmedium);
+    border-radius: 50px;
+    border: 0;
+}
+
+.btn-secondary:hover{
+    background: var(--black);
+    color: var(--white) !important;
+}
+
+.navbar-nav .nav-item a:hover{
+    color: var(--blue);
+    transition: all 0.3s ease;
+    font-weight: var(--fwsemibold);
+}
+
+.navbar-nav .nav-item a{
+    color: var(--black);
+    transition: all 0.3s ease;   
+}
+
+.navbar-nav .nav-item {
+    padding-right: 25px;
+    padding-left: 25px;
+    font-weight: var(--fwreguler);   
+}
+
+.navbar-brand{
+    font-weight: var(--fwbold);
+    font-size: 20px;
+    color: var(--black);
+}
+
+.navbar{
+    --bs-navbar-padding-y: 0rem;
+}
+
+.custom-navbar{
+    padding: 30px;
+    background: var(--white);
+    border-bottom-left-radius: 26px;
+    border-bottom-right-radius:26px ;
+}
+
+section.header{
+    padding: 70px 100px 70px 100px;
+
+}
+
+.badge{
+    background: var(--purplesoft);
+    border-radius: 50px;
+    padding: 16px 8px 16px 8px;
+}
+
+.copywriting h1{
+    font-weight: var(--fwextrabold);
+    font-size: 48px;
+    color: var(--black);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    line-height: 123%;
+}
+
+ p.copy{
+    font-weight: var(--fwreguler);
+    font-size: 16px;
+    color: var(--darkgrey);
+    padding-bottom: 30px;
+    line-height: 28px;
+}
+
+.badge p{
+    color: var(--black);
+    font-weight: var(--fwsemibold);
+    font-size: 14px; 
+}
