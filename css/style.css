@@ -51,7 +51,7 @@ body{
     margin: 0;
 }
 
-textarea .form-control{
+textarea.form-control{
     border-radius: 16px;
 }
 
