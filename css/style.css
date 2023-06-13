@@ -58,6 +58,13 @@ body{
     background: var(--white);
 }
 
+.form-select{
+    border-radius: 50px;
+    border: 0;
+    padding: 12px 20px 12px 20px;
+    background: var(--white);
+}
+
 
 .features-wrapper:hover .big-feature-card:not(:hover){
     filter: blur(4px);
