@@ -51,6 +51,10 @@ body{
     margin: 0;
 }
 
+textarea .form-control{
+    border-radius: 16px;
+}
+
 .form-control{
     border-radius: 50px;
     border: 0;
@@ -63,6 +67,10 @@ body{
     border: 0;
     padding: 12px 20px 12px 20px;
     background: var(--white);
+    background-image: url('../images/icon_dropdown.svg');
+    background-repeat: no-repeat;
+    background-position: right 16px center;
+    background-size: 24px;
 }
 
 
